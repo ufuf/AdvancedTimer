@@ -35,10 +35,7 @@ You MUST call initTimer for timer initialization;
 ```
 timer.initTimer(3000, timerElapsed, true);
 ```
-First param: Interval in milieconds
-Second param: EventHandler function
-Third param: AutoReset boolean.
-
+initTimer(interval, Eventhandler function, AutoReset);
                 
                 
 #### Methods
