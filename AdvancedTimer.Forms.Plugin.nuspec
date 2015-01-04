@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+   <metadata minClientVersion="2.8.3">
+       <id>Mobilist.AdvancedTimer.Forms.Plugin</id>
+       <version>1.0.0.0</version>
+       <title>AdvancedTimer Plugin for Xamarin.Forms</title>
+       <authors>Ufuk ARSLAN</authors>
+       <owners>Ufuk ARSLAN</owners>
+       <licenseUrl>https://github.com/ufuf/AdvancedTimer/blob/master/LICENSE</licenseUrl>
+       <projectUrl>https://github.com/ufuf/AdvancedTimer</projectUrl>
+       <requireLicenseAcceptance>false</requireLicenseAcceptance>
+       <description>
+         Timer object and its methods are implemented for extended support for timers.
+         You can start, stop, change interval of a timer.
+       </description>
+       <summary>Timer methods for an extended support of timer object.</summary>
+       <tags>xamarin, pcl, xam.pcl, windows phone, winphone, wp8, android, xamarin.forms, ios</tags>
+       <dependencies>
+         <dependency id="Xamarin.Forms" version="1.2.3.6257" />
+       </dependencies>
+   </metadata>
+   <files>
+<!--Core-->
+     <file src="AdvancedTimer\AdvancedTimer.Forms.Plugin.Abstractions\bin\Release\AdvancedTimer.Forms.Plugin.Abstractions.dll" target="lib\portable-net45+wp8+win8+MonoAndroid10+MonoTouch10\AdvancedTimer.Forms.Plugin.Abstractions.dll" />
+     <file src="AdvancedTimer\AdvancedTimer.Forms.Plugin.Abstractions\bin\Release\AdvancedTimer.Forms.Plugin.Abstractions.xml" target="lib\portable-net45+wp8+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\AdvancedTimer.Forms.Plugin.Abstractions.xml" />
+     <file src="AdvancedTimer\AdvancedTimer.Forms.Plugin.Abstractions\bin\Release\AdvancedTimer.Forms.Plugin.Abstractions.pdb" target="lib\portable-net45+wp8+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\AdvancedTimer.Forms.Plugin.Abstractions.pdb" />
+
+     <!--Win Phone Silverlight-->
+     <file src="AdvancedTimer\AdvancedTimer.Forms.Plugin.WindowsPhone\bin\Release\AdvancedTimer.Forms.Plugin.WindowsPhone.dll" target="lib\wp8\AdvancedTimer.Forms.Plugin.WindowsPhone.dll" />
+     <file src="AdvancedTimer\AdvancedTimer.Forms.Plugin.WindowsPhone\bin\Release\AdvancedTimer.Forms.Plugin.WindowsPhone.xml" target="lib\wp8\AdvancedTimer.Forms.Plugin.WindowsPhone.xml" />
+     <file src="AdvancedTimer\AdvancedTimer.Forms.Plugin.WindowsPhone\bin\Release\AdvancedTimer.Forms.Plugin.WindowsPhone.pdb" target="lib\wp8\AdvancedTimer.Forms.Plugin.WindowsPhone.pdb" />
+     <file src="AdvancedTimer\AdvancedTimer.Forms.Plugin.Abstractions\bin\Release\AdvancedTimer.Forms.Plugin.Abstractions.dll" target="lib\wp8\AdvancedTimer.Forms.Plugin.Abstractions.dll" />
+     <file src="AdvancedTimer\AdvancedTimer.Forms.Plugin.Abstractions\bin\Release\AdvancedTimer.Forms.Plugin.Abstractions.xml" target="lib\wp8\AdvancedTimer.Forms.Plugin.Abstractions.xml" />
+     <file src="AdvancedTimer\AdvancedTimer.Forms.Plugin.Abstractions\bin\Release\AdvancedTimer.Forms.Plugin.Abstractions.pdb" target="lib\wp8\AdvancedTimer.Forms.Plugin.Abstractions.pdb" />
+
+     
+     <!--Xamarin.Android-->
+     <file src="AdvancedTimer\AdvancedTimer.Forms.Plugin.Android\bin\Release\AdvancedTimer.Forms.Plugin.Android.dll" target="lib\MonoAndroid10\AdvancedTimer.Forms.Plugin.Android.dll" />
+     <file src="AdvancedTimer\AdvancedTimer.Forms.Plugin.Android\bin\Release\AdvancedTimer.Forms.Plugin.Android.xml" target="lib\MonoAndroid10\AdvancedTimer.Forms.Plugin.Android.xml" />
+     <file src="AdvancedTimer\AdvancedTimer.Forms.Plugin.Android\bin\Release\AdvancedTimer.Forms.Plugin.Android.pdb" target="lib\MonoAndroid10\AdvancedTimer.Forms.Plugin.Android.pdb" />
+     <file src="AdvancedTimer\AdvancedTimer.Forms.Plugin.Abstractions\bin\Release\AdvancedTimer.Forms.Plugin.Abstractions.dll" target="lib\MonoAndroid10\AdvancedTimer.Forms.Plugin.Abstractions.dll" />
+     <file src="AdvancedTimer\AdvancedTimer.Forms.Plugin.Abstractions\bin\Release\AdvancedTimer.Forms.Plugin.Abstractions.xml" target="lib\MonoAndroid10\AdvancedTimer.Forms.Plugin.Abstractions.xml" />
+     <file src="AdvancedTimer\AdvancedTimer.Forms.Plugin.Abstractions\bin\Release\AdvancedTimer.Forms.Plugin.Abstractions.pdb" target="lib\MonoAndroid10\AdvancedTimer.Forms.Plugin.Abstractions.pdb" />
+
+     <!--Xamarin.iOS-->
+     <file src="AdvancedTimer\AdvancedTimer.Forms.Plugin.iOS\bin\iPhone\Release\AdvancedTimer.Forms.Plugin.iOS.dll" target="lib\MonoTouch10\AdvancedTimer.Forms.Plugin.iOS.dll" />
+     <file src="AdvancedTimer\AdvancedTimer.Forms.Plugin.iOS\bin\iPhone\Release\AdvancedTimer.Forms.Plugin.iOS.xml" target="lib\MonoTouch10\AdvancedTimer.Forms.Plugin.iOS.xml" />
+     <file src="AdvancedTimer\AdvancedTimer.Forms.Plugin.Abstractions\bin\Release\AdvancedTimer.Forms.Plugin.Abstractions.dll" target="lib\MonoTouch10\AdvancedTimer.Forms.Plugin.Abstractions.dll" />
+     <file src="AdvancedTimer\AdvancedTimer.Forms.Plugin.Abstractions\bin\Release\AdvancedTimer.Forms.Plugin.Abstractions.xml" target="lib\MonoTouch10\AdvancedTimer.Forms.Plugin.Abstractions.xml" />
+
+   </files>
+</package>
