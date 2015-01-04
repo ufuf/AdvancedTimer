@@ -41,7 +41,7 @@ namespace FormsTest
             button1.Clicked += (sender, args) =>
             {
                 label.Text = "Timer Started!";
-                timer.initTimer(3000, timerElapsed, true);
+                timer.initTimer(3000, timerElapsed, false);
                 timer.startTimer();
             };
 

@@ -20,6 +20,8 @@ namespace FormsTest.WinPhone
             InitializeComponent();
 
             Forms.Init();
+            AdvancedTimer.Forms.Plugin.WindowsPhone.AdvancedTimerImplementation.Init();
+            
             Content = FormsTest.App.GetMainPage().ConvertPageToUIElement(this);
         }
     }
