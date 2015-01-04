@@ -10,7 +10,7 @@ For Xamarin.Forms projects
 Can be used with Dependency service.
 
 #### Setup
-* Available on NuGet
+* Available on NuGet: https://www.nuget.org/packages/Mobilist.AdvancedTimer.Forms.Plugin/
 * Install into your PCL project and Client projects.
 
 In your iOS, Android, and Windows Phone projects please call:
