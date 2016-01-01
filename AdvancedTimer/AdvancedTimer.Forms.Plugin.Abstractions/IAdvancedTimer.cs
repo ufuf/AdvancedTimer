@@ -10,31 +10,27 @@ namespace AdvancedTimer.Forms.Plugin.Abstractions
         /// <summary>
         /// Used for initializing timer and options
         /// </summary>
-        void initTimer(int interval, EventHandler e, bool autoReset);
+        void InitTimer(int interval, EventHandler e, bool autoReset);
 
         /// <summary>
         /// Used for starting timer
         /// </summary>
-        void startTimer();
+        void StartTimer();
 
         /// <summary>
         /// Used for stopping timer
         /// </summary>
-        void stopTimer();
+        void StopTimer();
 
         /// <summary>
         /// Used for checking timer status
         /// </summary>
-        bool isTimerEnabled();
+		bool IsTimerEnabled { get; }
 
         /// <summary>
         /// Used for checking timer interval
         /// </summary>
-        int getInterval();
+		int Interval { get; set; }
 
-        /// <summary>
-        /// Used for setting timer interval
-        /// </summary>
-        void setInterval(int interval);
     }
 }

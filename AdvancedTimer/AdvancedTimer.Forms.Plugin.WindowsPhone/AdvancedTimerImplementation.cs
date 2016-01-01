@@ -24,7 +24,7 @@ namespace AdvancedTimer.Forms.Plugin.WindowsPhone
         /// <summary>
         /// Used for initializing timer and options
         /// </summary>
-        public void initTimer(int interval, EventHandler e, bool autoReset)
+        public void InitTimer(int interval, EventHandler e, bool autoReset)
         {
             if (this.timer == null)
             {
@@ -46,7 +46,7 @@ namespace AdvancedTimer.Forms.Plugin.WindowsPhone
         /// <summary>
         /// Used for starting timer
         /// </summary>
-        public void startTimer()
+        public void StartTimer()
         {
             if (this.timer != null)
             {
@@ -64,7 +64,7 @@ namespace AdvancedTimer.Forms.Plugin.WindowsPhone
         /// <summary>
         /// Used for stopping timer
         /// </summary>
-        public void stopTimer()
+        public void StopTimer()
         {
             if (this.timer != null)
             {
@@ -82,26 +82,29 @@ namespace AdvancedTimer.Forms.Plugin.WindowsPhone
         /// <summary>
         /// Used for checking timer status
         /// </summary>
-        public bool isTimerEnabled()
+        public bool IsTimerEnabled
         {
-            return this.timer.IsEnabled;
+			get 
+			{
+				return this.timer.IsEnabled;
+			}
         }
 
         /// <summary>
         /// Used for checking timer interval
         /// </summary>
-        public int getInterval()
+        public int Interval
         {
-            return this.interval;
+			get 
+			{
+				return this.interval;
+			}
+			set 
+			{
+				this.interval = value;
+				this.timer.Interval = TimeSpan.FromMilliseconds(value);
+			}
         }
 
-        /// <summary>
-        /// Used for setting timer interval
-        /// </summary>
-        public void setInterval(int interval)
-        {
-            this.interval = interval;
-            this.timer.Interval = TimeSpan.FromMilliseconds(interval);
-        }
     }
 }
