@@ -15,8 +15,14 @@ Can be used with Dependency service.
 
 In your iOS, Android, and Windows Phone projects please call:
 
+iOS
 ```
 AdvancedTimer.Forms.Plugin.iOS.AdvancedTimerImplementation.Init();
+```
+
+Android
+```
+AdvancedTimer.Forms.Plugin.Droid.AdvancedTimerImplementation.Init();
 ```
 
 You must do this AFTER you call Xamarin.Forms.Init();
